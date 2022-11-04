@@ -18,6 +18,7 @@ public class Ex01 {
             Double temp = input.nextDouble();
             temperaturas.add(temp);
         }
+        input.close();
         Iterator<Double> iterator = temperaturas.iterator();
         double count = 0;
         while(iterator.hasNext()){
