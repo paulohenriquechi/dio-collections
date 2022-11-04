@@ -121,8 +121,6 @@ class ComparatorLetra implements Comparator<ArcoIris>{
     @Override
     public int compare(ArcoIris o1, ArcoIris o2) {
         return o1.getCor().compareToIgnoreCase(o2.getCor());
-        
-
     }
 
 }
